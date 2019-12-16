@@ -1,0 +1,37 @@
+<html style="font-family: Verdana; font-size: medium">
+<head>
+  <title>Tasks</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"
+          integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+          crossorigin="anonymous"></script>
+  <script src="js/dataloader.js"></script>
+  <style type="text/css">
+    table, th, tr {
+      border: 1px solid black; border-collapse: collapse
+    }
+
+  </style>
+
+</head>
+
+<body>
+<button id="loadTaskAsync">Load tasks asynchronously</button>
+<fieldset>
+  <legend>Tasks</legend>
+  <table id="taskTable" cellpadding="3" cellspacing="3"
+         style="width: 100%">
+    <tr style="background-color: darkgray">
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Status</th>
+      <th>Created At</th>
+      <th>Updated At</th>
+      <th>Resolved At</th>
+      <th>Due Date</th>
+      <th>Priority</th>
+    </tr>
+  </table>
+</fieldset>
+</body>
+</html>
