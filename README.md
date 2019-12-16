@@ -47,8 +47,11 @@ Setup & Deliveries
   
 Solution:
 git clone https://github.com/mamatha10jce/TaskScheduler.git
+
 cd into <folder name>
+    
 mvn spring-boot:run
+
 mvn package && java -jar target/SchedulerApi.jar
 
 Open Browser and paste this url
