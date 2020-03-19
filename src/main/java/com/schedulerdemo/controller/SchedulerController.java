@@ -22,7 +22,8 @@ import com.schedulerdemo.service.SchedulerService;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
 /**
- * @author Mamatha Dec 12, 2019 10:36:21 AM SchedulerController.java
+@author : Mamatha shivanna
+Written for Omni:Us Case study
  */
 @Api(value = "Task Scheduler")
 @RestController
